@@ -13,7 +13,7 @@
             $_SESSION['dangky']=$row_data['tenkhachhang'];
             $_SESSION['email']=$row_data['email'];
             $_SESSION['id_khachhang']=$row_data['id_dangky'];
-            header("Location:suaThongTin.php");
+            header("Location:menu/todolist.php");
             exit();
         }else{
             echo '<p style="color:red" >Email hoặc mật khẩu không chính xác </p>';

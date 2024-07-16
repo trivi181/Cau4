@@ -14,6 +14,9 @@
                 else if($tam =='dangnhap'){
                     include("main/dangNhap.php");
                 }
+                else if($tam == 'todolist'){
+                    include("main/menu/todolist.php");
+                }
                 else if($tam =='thaydoimatkhau'){
                     include("main/thaydoimatkhau.php");                }
                 else{
